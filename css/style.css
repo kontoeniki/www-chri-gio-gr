@@ -8,14 +8,14 @@ body {
 }
 
 a {
-  color: #d29e02;
+  color: #95C6CB;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #d29e02;
+  color: #95C6CB;
   outline: none;
   text-decoration: none;
 }
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #d29e02;
+  background: #95C6CB;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #d29e02;
+  background: #95C6CB;
   bottom: 0;
   left: 0;
   /* left: calc(50% - 25px); */
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #d29e02;
+  background-color: #95C6CB;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -290,10 +290,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #d29e02;
+  background: #95C6CB;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #d29e02;
+  border: 2px solid #95C6CB;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -457,8 +457,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
-  background-size: cover;
+/*  background: url(../img/wedding/stay-tunned.jpg) top center no-repeat;*/
+  background-size: contain;
   overflow: hidden;
   position: relative;
 }
@@ -505,7 +505,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #d29e02;
+  color: #95C6CB;
 }
 
 #intro p {
@@ -517,7 +517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#d29e02 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#95C6CB 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -602,11 +602,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #d29e02;
+  border: 2px solid #95C6CB;
 }
 
 #intro .about-btn:hover {
-  background: #d29e02;
+  background: #95C6CB;
   color: #fff;
 }
 
@@ -765,7 +765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #d29e02;
+  background: #95C6CB;
   color: #fff;
 }
 
@@ -810,7 +810,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #d29e02;
+  background-color: #95C6CB;
   color: #fff;
 }
 
@@ -1243,13 +1243,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #d29e02;
+  background-color: #95C6CB;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #4869df;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1262,13 +1262,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #d29e02;
+  background-color: #95C6CB;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #4869df;
 }
 
 /*--------------------------------------------------------------
@@ -1372,7 +1372,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #e0072f;
+  background: #222636;
 }
 
 /*--------------------------------------------------------------
