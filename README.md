@@ -1,3 +1,5 @@
+https://kontoeniki.github.io/www-chri-gio-gr/
+
 # Event Bootstrap Theme
 
 Event is a one page multiuse template based on the Bootstrap Framework.
