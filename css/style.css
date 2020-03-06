@@ -4,18 +4,19 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
 }
 
 a {
-  color: #95C6CB;
+  color: #CBABAE;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #95C6CB;
+  color: #CBABAE;
   outline: none;
   text-decoration: none;
 }
@@ -26,11 +27,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #D6B889;
 }
 
 .main-page {
@@ -59,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #95C6CB;
+  background: #CBABAE;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -101,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #95C6CB;
+  background: #D6B889;
   bottom: 0;
   left: 0;
   /* left: calc(50% - 25px); */
@@ -121,11 +122,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: #D6B889;
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  /*background-color: #f6f7fd;*/
 }
 
 /*--------------------------------------------------------------
@@ -145,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: #CBABAE;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -156,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -253,8 +254,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -276,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #95C6CB;
+  background-color: #D6B889;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -290,10 +291,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #95C6CB;
+  background: #D6B889;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #95C6CB;
+  border: 2px solid #D6B889;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -371,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: #CBABAE;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -432,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: #CBABAE;
   display: none;
 }
 
@@ -498,14 +499,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 #intro h1 span {
-  color: #95C6CB;
+  color: #D6B889;
 }
 
 #intro p {
@@ -517,7 +518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#95C6CB 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#D6B889 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -589,7 +590,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -602,11 +603,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #95C6CB;
+  border: 2px solid #D6B889;
 }
 
 #intro .about-btn:hover {
-  background: #95C6CB;
+  background: #D6B889;
   color: #fff;
 }
 
@@ -653,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: #95C6CB;
+  background: #CBABAE;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -804,13 +805,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #F0DEBF;
   color: #fff;
   padding: 10px 100px;
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #95C6CB;
+  background-color: #D6B889;
   color: #fff;
 }
 
@@ -826,7 +827,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
+  border-bottom: 1px solid #D6B889;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
@@ -1111,7 +1112,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1294,7 +1295,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #112363;
+  color: #7B6A6C;
 }
 
 #contact .contact-info h3 {
@@ -1302,7 +1303,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #112363;
+  color: #7B6A6C;
 }
 
 #contact .contact-info a {
@@ -1380,14 +1381,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
+  background: #D6B889;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background:#D6B889;
   padding: 60px 0 30px 0;
 }
 
@@ -1400,7 +1401,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1414,7 +1415,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #fff;
 }
 
