@@ -997,7 +997,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ffc31d;
 }
 
-#hotels p {
+#hotels p, #gallery p, #sponsors p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
@@ -1067,9 +1067,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sponsors .sponsor-logo {
   padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
